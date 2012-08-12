@@ -27,6 +27,8 @@ sudo cat /etc/hosts >> hosts
 
 sudo mv hosts /etc/hosts
 
+sudo mv $1 /etc/apache2/sites-available/
+
 sudo a2dissite $1
 sudo a2ensite $1
 
