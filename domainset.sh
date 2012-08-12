@@ -1,3 +1,5 @@
+# sh domainset.sh <domain.name.tld> <location/of/index>
+
 echo "Settings up domain name $1"
 echo "At the location $2"
 
