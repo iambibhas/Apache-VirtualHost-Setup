@@ -26,7 +26,6 @@ echo "127.0.0.1       $1" > hosts
 sudo cat /etc/hosts >> hosts
 
 sudo mv hosts /etc/hosts
-
 sudo mv $1 /etc/apache2/sites-available/
 
 sudo a2dissite $1
