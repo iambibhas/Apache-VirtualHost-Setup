@@ -29,6 +29,6 @@ sudo mv hosts /etc/hosts
 sudo mv $1 /etc/apache2/sites-available/
 
 sudo a2dissite $1
+sudo service apache2 reload
 sudo a2ensite $1
-
 sudo service apache2 reload
